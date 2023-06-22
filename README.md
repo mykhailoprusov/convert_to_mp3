@@ -9,7 +9,25 @@ library is used for converting purposes and PostgreSQL database for video and au
 Django project. Main app - config, convert_to_mp3 app - covers everything related to the project, media app contains video and audio files
 
 ### Installation and Setup:
-You need to have a API key for the requests from home.openweathermap.org. This key must cover the 5-day forecasts as the free one doesn't include this option
+You need to have a a config_data.json file in the root
+directory that has such data:
+```json
+{
+    "default": {
+        "ENGINE": "",
+        "NAME": "",
+        "HOST": "",
+        "PORT": ,
+        "USER": "",
+        "PASSWORD": ""
+    },
+
+    "SECRET_KEY" :
+    
+
+}
+Make sure to replace the empty values (`""`, ` `) with the actual values for your configuration.
+```n
 
 ##### Library requirements:
 asgiref==3.7.2
