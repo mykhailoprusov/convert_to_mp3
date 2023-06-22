@@ -27,7 +27,7 @@ directory that has such data:
 
 }
 Make sure to replace the empty values (`""`, ` `) with the actual values for your configuration.
-```n
+```
 
 ##### Library requirements:
 asgiref==3.7.2
